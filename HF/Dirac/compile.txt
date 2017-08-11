@@ -1,1 +1,0 @@
-ifort main.f90 -L/home/mmh568/Project-QM/software/lib64/ -llapack -lblas
