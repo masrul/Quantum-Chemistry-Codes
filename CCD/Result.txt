@@ -1,0 +1,107 @@
+ SCF CYCLE NO            :              1
+ rmsDensityError         :      1.77235896569281     
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :      19.9914355243186     
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -19.9914355243186     
+ 
+ 
+ SCF CYCLE NO            :              2
+ rmsDensityError         :      1.61669062316757     
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :      6.28652904393909     
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -13.7049064803795     
+ 
+ 
+ SCF CYCLE NO            :              3
+ rmsDensityError         :     0.208592765691964     
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :     0.807630923262572     
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -14.5125374036421     
+ 
+ 
+ SCF CYCLE NO            :              4
+ rmsDensityError         :     5.124439840572278E-002
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :     4.988048745015483E-002
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -14.5624178910922     
+ 
+ 
+ SCF CYCLE NO            :              5
+ rmsDensityError         :     1.122221403130489E-002
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :     8.544336131377506E-003
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -14.5709622272236     
+ 
+ 
+ SCF CYCLE NO            :              6
+ rmsDensityError         :     2.182177733550456E-003
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :     1.648186544205288E-003
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -14.5726104137678     
+ 
+ 
+ SCF CYCLE NO            :              7
+ rmsDensityError         :     3.966510578086618E-004
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :     3.269993925236747E-004
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -14.5729374131603     
+ 
+ 
+ SCF CYCLE NO            :              8
+ rmsDensityError         :     6.635588365059345E-005
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :     6.593874257099230E-005
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -14.5730033519029     
+ 
+ 
+ SCF CYCLE NO            :              9
+ rmsDensityError         :     9.450921015877899E-006
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :     1.355306416250812E-005
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -14.5730169049671     
+ 
+ 
+ SCF CYCLE NO            :             10
+ rmsDensityError         :     1.039810775607141E-006
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :     2.861658018105118E-006
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -14.5730197666251     
+ 
+ 
+ SCF CYCLE NO            :             11
+ rmsDensityError         :     4.054394576405154E-007
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :     6.271114099121178E-007
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -14.5730203937365     
+ 
+ 
+ SCF CYCLE NO            :             12
+ rmsDensityError         :     2.030156864571205E-007
+ DENSITY CONVERGENCE     :    F
+ absErrorEnergy          :     1.441721266814966E-007
+ ENERGY CONVERGENCE      :    F
+ HF ENERGY               :     -14.5730205379086     
+ 
+ 
+ **********  Congratulation!!! SCF has Converged  ***********
+ ------------------------------------------------------------
+ 
+ SCF CYCLE NO            :             13
+ rmsDensityError         :     8.071117152778226E-008
+ DENSITY CONVERGENCE     :    T
+ absErrorEnergy          :     3.506068679826058E-008
+ ENERGY CONVERGENCE      :    T
+ HF ENERGY               :     -14.5730205729693     
+ 
+ 
