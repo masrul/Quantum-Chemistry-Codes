@@ -13,7 +13,7 @@ program main
     do while (.not.ccdConverged)
         iter=iter+1
         call Get_ECCD
-        call Update_DoubleExcitation
+        call Update_tijab
         print*,'Iteration number: ',iter,'-------> ECCD: ',ECCD
     end do 
 end program main
