@@ -2,12 +2,12 @@ Module HartreeFock
     integer,parameter::K=6,N=4
     double precision,parameter::EnergyTol=10D-8
     double precision,parameter::DensityTol=10D-8
-	double precision::S(K,K),H(K,K),G2(K,K,K,K)
-	double precision::X(K,K)
-	double precision::G(K,K),F(K,K),C(K,K)
+    double precision::S(K,K),H(K,K),G2(K,K,K,K)
+    double precision::X(K,K)
+    double precision::G(K,K),F(K,K),C(K,K)
     double precision::D(K,K),pC(K,K)
-	double precision::newD(K,K),pF(K,K)
-	integer::iSCF
+    double precision::newD(K,K),pF(K,K)
+    integer::iSCF
     double precision::E,newE
     logical::EnergyConverged,DensityConverged
     logical::Converged
@@ -18,7 +18,7 @@ Module HartreeFock
     subroutine  readParams()
         implicit none 
         OPEN (4, FILE='BERSHG.DAT', FORM='FORMATTED')
-		Rewind 4
+	Rewind 4
       	READ (4,*) S, H, G2
       	CLOSE (4)
     end subroutine  readParams
