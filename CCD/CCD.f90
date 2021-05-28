@@ -1,6 +1,6 @@
 Module CCD
     use HF
-	double precision::G2_MO(nO,nO,nO,nO)
+    double precision::G2_MO(nO,nO,nO,nO)
     double precision::EMP2,ECCD,OLDCCD
     double precision::G2_SO(nSO,nSO,nSO,nSO)
     double precision::td(nSO,nSO,nSO,nSO)
@@ -8,7 +8,9 @@ Module CCD
     double precision::ESO(nSO,nSO)
     double precision,parameter::rmsT2tol=1d-7
     logical::ccdConverged
-    contains
+    
+contains
+    
 subroutine Convert_AOtoMO
     implicit none 
     integer::i,j,a,b
