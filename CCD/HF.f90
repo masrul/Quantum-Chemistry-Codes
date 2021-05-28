@@ -3,12 +3,12 @@ Module HF
     integer,parameter::nO=6,nElec=4,nSO=12
     double precision,parameter::EnergyTol=10D-8
     double precision,parameter::DensityTol=10D-8
-	double precision::S(nO,nO),H(nO,nO),G2(nO,nO,nO,nO)
-	double precision::X(nO,nO)
-	double precision::G(nO,nO),F(nO,nO),C(nO,nO)
+    double precision::S(nO,nO),H(nO,nO),G2(nO,nO,nO,nO)
+    double precision::X(nO,nO)
+    double precision::G(nO,nO),F(nO,nO),C(nO,nO)
     double precision::D(nO,nO),pC(nO,nO)
-	double precision::newD(nO,nO),pF(nO,nO)
-	integer::iSCF
+    double precision::newD(nO,nO),pF(nO,nO)
+    integer::iSCF
     double precision::MOEnergy(nO)
     double precision::EHF,newEHF
     logical::EnergyConverged,DensityConverged
@@ -49,6 +49,7 @@ subroutine Get_transformedCMatrix()
     call Diagonalize_Matrix(pF,MOEnergy,nO)
     pC=pF
 end subroutine Get_transformedCMatrix
+
 subroutine Get_GMatrix()
     implicit none 
     integer::mu,nu,lamda,sigma
